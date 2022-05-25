@@ -1,0 +1,34 @@
+/* ======= About Section/Seção Sobre ======= */
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.about .image {
+  flex: 1 1 40rem;
+}
+
+.about .image img {
+  width: 100%;
+}
+
+
+.about .content {
+  flex: 1 1 40rem;
+}
+
+.about .content h3 {
+  font-size: 4.5rem; /*4.5rem*/
+  color: var(--black);
+  font-family: 'Merienda One', cursive;
+  padding-bottom: 1rem;
+}
+
+.about .content p {
+  padding: 1rem 0;
+  line-height: 2;
+  color: var(--light-color);
+  font-size: 1.5rem;
+}
