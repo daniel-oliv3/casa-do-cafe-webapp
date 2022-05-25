@@ -11,6 +11,7 @@ import { MenuComponent } from './menu/menu.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { TeamComponent } from './team/team.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     MenuComponent,
     GalleryComponent,
     TeamComponent,
-    ContactsComponent
+    ContactsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
